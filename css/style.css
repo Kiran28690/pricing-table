@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #6e7b8b;
+}
+.myForm{
+    width: 960px;
+    /* height: 662px; */
+    /* background-color: red; */
+    margin: 35px auto;
+    border-spacing: 0;
+    /* border-right: 10px solid #616d7b;
+    border-bottom: 10px solid #616d7b; */
+}
+.myForm thead{
+    /* height: 80px; */
+    display: block;
+    /* background-color: beige; */
+}
+.myForm tbody{
+    /* height: 550px;
+    background-color: antiquewhite; */
+    display: block;
+    top: -10px;
+    right: 2px;
+    position: relative;
+    z-index: -1;
+}
+.myForm tfoot{
+    display: block;
+    position: relative;
+    top: -15px;
+    /* height: 70px;                
+    background-color: orange */
+}
+.free{
+    background-image: -webkit-linear-gradient(left,#6f65ae, #8b6aaf);
+    border-bottom: 10px solid #80659a;
+}
+.checked-free{
+    background-image: -webkit-linear-gradient(right, #555289, #77589e); 
+    border-radius: 50%;
+    width: 25px;
+    height: 25px; 
+    line-height: 25px;
+    color:#2a9d52;
+}
+.premium{
+    background-image: -webkit-linear-gradient(left,#9b487e, #e76567);
+    border-bottom: 10px solid #a95167;
+}
+.checked-premium{
+    background-image: -webkit-linear-gradient(right, #95266a, #e44657); 
+    border-radius: 50%;
+    width: 25px; 
+    height: 25px; 
+    line-height: 25px;
+    color:#2a9d52;
+}
+.unlimited{                
+    background-image: -webkit-linear-gradient(left,#fac34c, #fde29b);
+    border-bottom: 10px solid #d9b777;
+}
+.checked-unlimited{
+    background-image: -webkit-linear-gradient(right, #f8b936, #fcd172); 
+    border-radius: 50%;
+    width: 25px; 
+    height: 25px; 
+    line-height: 25px;
+    color:#2a9d52;
+}
+.myForm thead th, tfoot td{
+    width: 215px;
+    height: 65px;
+    color: #fff;
+    line-height: 65px;               
+}
+.myForm thead th div{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+}
+.myForm tbody tr:nth-child(odd) td:nth-child(2){
+    background-image: -webkit-linear-gradient(left, #f7f7f7, #fff);
+    width: 315px; 
+    padding: 35px;
+}
+.myForm tbody tr:nth-child(odd) td:nth-child(3){
+    background-image: -webkit-linear-gradient(left, #f7f7f7, #fff);
+    text-align: center;
+    width: 260px; 
+}
+.myForm tbody tr:nth-child(odd) td:nth-child(4){
+    background-image: -webkit-linear-gradient(left, #f7f7f7, #fff);
+    text-align: center;
+    width: 260px; 
+}
+.myForm tbody tr:nth-child(odd) td:nth-child(5){
+    background-image: -webkit-linear-gradient(left, #f7f7f7, #fff);
+    text-align: center;
+    width: 260px; 
+}
+.myForm tbody tr:nth-child(even) td:nth-child(2){
+    background-image: -webkit-linear-gradient(left, #e6eaeb, #fdfdfd);
+    width: 260px; padding: 35px;
+}
+.myForm tbody tr:nth-child(even) td:nth-child(3){
+    background-image: -webkit-linear-gradient(left, #e6eaeb, #fdfdfd);
+    text-align: center;
+}
+.myForm tbody tr:nth-child(even) td:nth-child(4){
+    background-image: -webkit-linear-gradient(left, #e6eaeb, #fdfdfd);
+    text-align: center;
+}
+.myForm tbody tr:nth-child(even) td:nth-child(5){
+    background-image: -webkit-linear-gradient(left, #e6eaeb, #fdfdfd);
+    text-align: center;
+}
+.myForm tbody tr:nth-child(odd) td:nth-child(1){
+    width: 70px; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: -webkit-linear-gradient(top, #584ca0, #744ea1);
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+}
+.myForm tbody tr:nth-child(even) td:nth-child(1){
+    width: 70px; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: -webkit-linear-gradient(top, #8e2867, #d34156);
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+}
+.myForm tfoot td div{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.myForm tfoot td div a{
+    text-decoration: none;
+    color: #fff;
+}
